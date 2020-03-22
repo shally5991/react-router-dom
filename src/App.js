@@ -36,7 +36,7 @@ class App extends Component {
   render(){
     return(
       <div>
-      <Route exact path ='/' component = {HomePage } />
+      <Route exact path ='https://shally5991.github.io/react-router-dom/' component = {HomePage } />
       <Route exact path = '/topics' component ={TopicsList} />
       <Route path = '/topics/:topicID' component = {TopicDetail} />  
       </div>
